@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ember — A Religion That Gathers the Light</title>
+  <meta name="description" content="Every tradition carries a piece of the truth. Gather them together, and live accordingly.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="ember-icon">◉</span> Ember
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#origin">Origin</a></li>
+        <li><a href="#truths">Seven Truths</a></li>
+        <li><a href="#practices">Practices</a></li>
+        <li><a href="#alignments">Alignments</a></li>
+        <li><a href="#calendar">Calendar</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#invitation">Join</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <canvas id="emberCanvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-badge">A Founding Text</div>
+      <h1 class="hero-title">Ember</h1>
+      <p class="hero-subtitle">Every tradition carries a piece of the truth.<br>Gather them together, and live accordingly.</p>
+      <div class="hero-verse">
+        <p>"A fire dies down but the ember endures.<br>From one ember, a thousand fires.<br>The ember did not diminish. Truth is like this."</p>
+        <span class="verse-source">— Kitāb al-Jamr (Book of Embers)</span>
+      </div>
+      <a href="#origin" class="hero-cta">Discover the Light</a>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Origin -->
+  <section class="section section-origin" id="origin">
+    <div class="container">
+      <div class="section-label">I. The Beginning</div>
+      <h2 class="section-title">The Origin Story</h2>
+      <div class="origin-content">
+        <p class="lead">In every age and every land, human beings have looked upward, inward, and outward — searching for meaning. They found it. Not once, but many times.</p>
+        <p>The great religions of the world are not errors to be corrected but lanterns to be gathered. Each saw a true facet of something vast.</p>
+        <div class="origin-highlight">
+          <p>No single tradition holds the whole truth, but each holds a piece of it.</p>
+        </div>
+        <p>The divine spoke through Moses on Sinai, through the Buddha under the Bodhi tree, through Jesus in Galilee, through Muhammad in the cave of Hira, through Krishna on the battlefield, through Guru Nanak at the river, through Lao Tzu watching water flow downhill.</p>
+        <p class="emphasis">These were not contradictions. They were refractions — the same light passing through different prisms.</p>
+        <p>Ember does not ask you to abandon where you came from. It asks you to walk further.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Flame -->
+  <section class="section section-flame">
+    <div class="container">
+      <div class="flame-visual">
+        <div class="flame-glow"></div>
+        <div class="flame-text">
+          <p>Behind the multiplicity of names — God, Allah, Brahman, the Tao, the Absolute — there is one source of all being.</p>
+          <p class="flame-name">We call it <strong>the Flame</strong></p>
+          <p class="flame-desc">Not because it is fire, but because it is the light from which all lesser lights are kindled.</p>
+          <p class="flame-identity">And we call ourselves <strong>Ember</strong> — because we are what remains when the spectacle burns away. The quiet heat. The part that endures. The part that can reignite everything.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seven Truths -->
+  <section class="section section-truths" id="truths">
+    <div class="container">
+      <div class="section-label">II. The Heart</div>
+      <h2 class="section-title">The Seven Truths</h2>
+      <p class="section-intro">Each drawn from the deepest well of a different tradition. Together they form a complete picture of how to live.</p>
+
+      <div class="truths-grid">
+        <article class="truth-card" data-index="1">
+          <div class="truth-number">1</div>
+          <div class="truth-origin">Abrahamic Monotheism</div>
+          <h3 class="truth-title">There Is One Source</h3>
+          <p>If there is one source, then all people share a common origin and a common dignity. There are no throwaway people, no lesser races, no disposable lives.</p>
+        </article>
+
+        <article class="truth-card" data-index="2">
+          <div class="truth-number">2</div>
+          <div class="truth-origin">Buddhism</div>
+          <h3 class="truth-title">Compassion Is the First Response</h3>
+          <p>We do not pretend life is easy. We do not promise that faith removes pain. We promise that you will not face it alone, and that alleviating suffering is the highest use of a human life.</p>
+        </article>
+
+        <article class="truth-card" data-index="3">
+          <div class="truth-number">3</div>
+          <div class="truth-origin">Hinduism — Karma</div>
+          <h3 class="truth-title">You Reap What You Sow</h3>
+          <p>Kindness produces kindness. Cruelty produces cruelty. Not always immediately, not always visibly, but reliably over the long arc of a life and a community.</p>
+        </article>
+
+        <article class="truth-card" data-index="4">
+          <div class="truth-number">4</div>
+          <div class="truth-origin">Islam — Tawakkul</div>
+          <h3 class="truth-title">Surrender What You Cannot Control</h3>
+          <p>Do your best work, then release your attachment to the outcome. Plan the harvest but accept the weather.</p>
+        </article>
+
+        <article class="truth-card" data-index="5">
+          <div class="truth-number">5</div>
+          <div class="truth-origin">Judaism — Tikkun Olam</div>
+          <h3 class="truth-title">Repair the World Through Action</h3>
+          <p>Spiritual practice which does not flow outward into justice, generosity, and repair is merely self-indulgence. We are the hands.</p>
+        </article>
+
+        <article class="truth-card" data-index="6">
+          <div class="truth-number">6</div>
+          <div class="truth-origin">Sikhism — Seva &amp; Langar</div>
+          <h3 class="truth-title">Serve Without Distinction</h3>
+          <p>Service is not charity given downward. It is equals sitting together. Everyone serves. No one is served. It is theology you can taste.</p>
+        </article>
+
+        <article class="truth-card" data-index="7">
+          <div class="truth-number">7</div>
+          <div class="truth-origin">Taoism — Wu Wei</div>
+          <h3 class="truth-title">Flow With the Pattern of Nature</h3>
+          <p>We are not lords of creation but participants in it. We listen before we act. We observe before we speak. We plant before we harvest.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Practices -->
+  <section class="section section-practices" id="practices">
+    <div class="container">
+      <div class="section-label">III. The Path</div>
+      <h2 class="section-title">The Five Practices</h2>
+      <p class="section-intro">Belief without practice is philosophy. Ember is a lived religion.</p>
+
+      <div class="practices-list">
+        <div class="practice-item">
+          <div class="practice-icon">☀</div>
+          <div class="practice-content">
+            <h3>The Morning Alignment</h3>
+            <span class="practice-freq">Daily — 5 minutes</span>
+            <p>Upon waking: one minute of stillness, two minutes of specific gratitude, two minutes setting one intention. Not a goal — an intention.</p>
+          </div>
+        </div>
+
+        <div class="practice-item">
+          <div class="practice-icon">☽</div>
+          <div class="practice-content">
+            <h3>The Evening Reflection</h3>
+            <span class="practice-freq">Daily — 5 minutes</span>
+            <p>Before sleep: review the day, repair what needs mending, release what is done. Tomorrow is new.</p>
+          </div>
+        </div>
+
+        <div class="practice-item">
+          <div class="practice-icon">◯</div>
+          <div class="practice-content">
+            <h3>The Weekly Gathering</h3>
+            <span class="practice-freq">Weekly</span>
+            <p>Shared silence. A reading from any sacred text. Open reflection. And always — the shared meal, prepared together, eaten together, cleaned up together.</p>
+          </div>
+        </div>
+
+        <div class="practice-item">
+          <div class="practice-icon">❖</div>
+          <div class="practice-content">
+            <h3>Seasonal Meditation Retreat</h3>
+            <span class="practice-freq">Quarterly — at each solstice and equinox</span>
+            <p>Step out of the noise. Re-encounter the Flame in silence. One day to one week of extended stillness and recalibration.</p>
+          </div>
+        </div>
+
+        <div class="practice-item">
+          <div class="practice-icon">⟡</div>
+          <div class="practice-content">
+            <h3>The Tithe of Time</h3>
+            <span class="practice-freq">Ongoing</span>
+            <p>Give 10% of your free time to service. Not money — time. A billionaire and a student both have the same number of hours. Both can give.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ten Alignments -->
+  <section class="section section-alignments" id="alignments">
+    <div class="container">
+      <div class="section-label">IV. The Code</div>
+      <h2 class="section-title">The Ten Alignments</h2>
+      <p class="section-intro">Not commandments from an external authority — principles you align yourself with because you understand their truth.</p>
+
+      <div class="alignments-grid">
+        <div class="alignment-item"><span class="alignment-num">I</span><span class="alignment-text">Protect life.</span></div>
+        <div class="alignment-item"><span class="alignment-num">II</span><span class="alignment-text">Speak truth. Even when it costs you.</span></div>
+        <div class="alignment-item"><span class="alignment-num">III</span><span class="alignment-text">Keep your promises. Your word is sacred.</span></div>
+        <div class="alignment-item"><span class="alignment-num">IV</span><span class="alignment-text">Share what you have. Hoarding is a sickness of the soul.</span></div>
+        <div class="alignment-item"><span class="alignment-num">V</span><span class="alignment-text">Forgive freely. Resentment poisons the one who holds it.</span></div>
+        <div class="alignment-item"><span class="alignment-num">VI</span><span class="alignment-text">Honour the earth. It is not yours. You are borrowing it.</span></div>
+        <div class="alignment-item"><span class="alignment-num">VII</span><span class="alignment-text">Respect every person's dignity.</span></div>
+        <div class="alignment-item"><span class="alignment-num">VIII</span><span class="alignment-text">Pursue knowledge. Ignorance is not innocence — it is neglect.</span></div>
+        <div class="alignment-item"><span class="alignment-num">IX</span><span class="alignment-text">Practice restraint. Freedom is not doing whatever you want.</span></div>
+        <div class="alignment-item"><span class="alignment-num">X</span><span class="alignment-text">Leave things better than you found them.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sacred Calendar -->
+  <section class="section section-calendar" id="calendar">
+    <div class="container">
+      <div class="section-label">V. The Rhythm</div>
+      <h2 class="section-title">Sacred Calendar</h2>
+      <p class="section-intro">Eight holy days, tied to the natural rhythms of the earth.</p>
+
+      <div class="calendar-grid">
+        <div class="calendar-card">
+          <div class="calendar-date">Dec 21</div>
+          <h3>Day of Light</h3>
+          <p>Winter Solstice. Candle-lighting ceremony — each person lights a candle from a single ember. Gift-giving to strangers.</p>
+        </div>
+        <div class="calendar-card">
+          <div class="calendar-date">Mar 20</div>
+          <h3>Day of Awakening</h3>
+          <p>Spring Equinox. A day of renewal. Plant something — a seed, a tree, an idea. Community service begins.</p>
+        </div>
+        <div class="calendar-card">
+          <div class="calendar-date">Jun 21</div>
+          <h3>Day of Gratitude</h3>
+          <p>Summer Solstice. Outdoor gathering with music, feasting, and storytelling. Gratitude letters written and delivered.</p>
+        </div>
+        <div class="calendar-card">
+          <div class="calendar-date">Sep 22</div>
+          <h3>Day of Reflection</h3>
+          <p>Autumn Equinox. Fasting, self-examination, and reconciliation. A day to look inward.</p>
+        </div>
+        <div class="calendar-card">
+          <div class="calendar-date">Oct full moon</div>
+          <h3>Day of the Teacher</h3>
+          <p>Honouring teachers, mentors, and those who passed on knowledge. Public lectures and readings.</p>
+        </div>
+        <div class="calendar-card">
+          <div class="calendar-date">First Sat in May</div>
+          <h3>Day of Service</h3>
+          <p>A global day of communal service. Every Circle organises a public meal and community project.</p>
+        </div>
+        <div class="calendar-card">
+          <div class="calendar-date">Nov 1</div>
+          <h3>Day of Ancestors</h3>
+          <p>Remembrance of the dead. Stories told, photos displayed, an empty place setting for those who have passed.</p>
+        </div>
+        <div class="calendar-card">
+          <div class="calendar-date">Last day of Jan</div>
+          <h3>Day of Silence</h3>
+          <p>24 hours of voluntary silence. No phones, no screens, no speech. Only presence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Community -->
+  <section class="section section-community" id="community">
+    <div class="container">
+      <div class="section-label">VI. The Structure</div>
+      <h2 class="section-title">Community</h2>
+
+      <div class="community-grid">
+        <div class="community-card">
+          <h3>No Clergy, Only Guides</h3>
+          <p>Experienced practitioners who facilitate gatherings and mentor newcomers. Chosen by their Circle, not appointed from above. Any person may become a Guide.</p>
+        </div>
+        <div class="community-card">
+          <h3>Circles</h3>
+          <p>The basic unit of Ember — a local community of 10–150 people who gather weekly. Autonomous, self-governing, adapted to local culture. No central authority.</p>
+        </div>
+        <div class="community-card">
+          <h3>Constellations</h3>
+          <p>Regional groupings of Circles that coordinate service projects, share resources, and organise retreats. Administrative, not authoritative.</p>
+        </div>
+        <div class="community-card">
+          <h3>The Archive</h3>
+          <p>A curated, open-access library of sacred texts, philosophy, science, and practical wisdom from every tradition. Digital and free. The world's wisdom, accessible to everyone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Ember Verse -->
+  <section class="section section-verse">
+    <div class="container">
+      <div class="verse-block">
+        <div class="verse-label">The Ember Verse</div>
+        <div class="verse-lines">
+          <p>We are embers from one fire.</p>
+          <p>We did not create the flame — we carry it.</p>
+          <p>May we burn with compassion, not with anger.</p>
+          <p>May we give warmth, not destruction.</p>
+          <p>May we glow for those still in darkness,</p>
+          <p>and may we have the humility to be rekindled by others.</p>
+          <p class="verse-refrain">The ember endures. The ember endures. The ember endures.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Invitation -->
+  <section class="section section-invitation" id="invitation">
+    <div class="container">
+      <div class="invitation-content">
+        <h2>An Invitation</h2>
+        <p>Ember does not ask you to believe something impossible. It asks you to do something difficult: to honour the truth wherever you find it, to serve without condition, to sit with people unlike yourself and share a meal.</p>
+        <p class="invitation-accept">You do not need to be perfect to walk this path. You only need to be willing.</p>
+        <div class="invitation-closing">
+          <p>The fire is already lit.</p>
+          <p class="closing-cta">Come closer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">This is a founding document of Ember. It belongs to no one and to everyone.</p>
+        <p class="footer-text">Copy it, translate it, argue with it, improve it.</p>
+        <p class="footer-tagline">Truth is not diminished by sharing — it is multiplied.</p>
+        <div class="footer-ember">◉</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
